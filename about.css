@@ -1,0 +1,83 @@
+body {
+   margin: 20px;
+   font-family: Arial, sans-serif;
+   background-image: url('background\ 2.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center; /* Membuat gambar latar belakang tetap di tengah */
+}
+
+.header {
+   background-color: #6c7e89;
+}
+
+.nav-link {
+   color: white !important;
+}
+
+.navbar-brand {
+   color: white !important;
+   font-weight: bold !important;
+}
+
+h1 {
+   margin-left: 0%;
+   text-align: left;
+}
+
+img {
+   margin-left: 0px;
+   max-width: 100%; /* Menggunakan max-width agar gambar bisa responsif */
+   height: auto; /* Mengikuti aspek gambar */
+   border-radius: 20px;
+}
+
+p {
+   text-align: left;
+   margin-top: 20px; 
+}
+
+.footer {
+   width: 100%;
+   text-align: center;
+   background-color: #6c7e89;
+   color: white;
+   padding: 0px;
+}
+
+.kotak-about {
+   padding: 50px;
+}
+
+.gambar-about {
+   height: 250px;
+   width: 500px;
+   border-radius: 10px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+   .gambar-about {
+       height: auto; /* Mengikuti aspek gambar */
+       width: 100%; /* Mengisi lebar container yang lebih kecil */
+       border-radius: 10px;
+       margin: 20px 0; /* Menghapus margin atas dan bawah, menambah margin kiri-kanan */
+   }
+
+   /* Sama-ratakan margin di dalam kotak-about */
+   .kotak-about {
+       padding: 50px;
+       text-align: center; /* Sama-ratakan teks dalam kotak-about */
+   }
+ 
+ body {
+   margin: 20px;
+   font-family: Arial, sans-serif;
+   background-image: url('background\ 2.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center; /* Membuat gambar latar belakang tetap di tengah */
+}
+ 
+}
